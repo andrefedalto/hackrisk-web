@@ -86,6 +86,7 @@ foreach ($_prescriptions as $_prescription)
 $smarty->assign('prescriptions', $prescriptions);
 
 
+$db->orderBy("date","asc");
 
 $exams = $db->get('exam');
 $_exams = array();
@@ -98,7 +99,7 @@ $smarty->assign('exams', $_exams);
 
 
 
-
+$db->orderBy("date","asc");
 $feels = $db->get('feel');
 $_feels = array();
 foreach ($feels as $feel)

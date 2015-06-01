@@ -13,7 +13,7 @@
 
 <!-- Sidebar Menu -->
 <ul class="sidebar-menu">
-    <li class="header"><b>JOHN DORIAN</b></li>
+    <li class="header"><b>SOPHIE DAVIS</b></li>
     <!-- Optionally, you can add icons to the links -->
     <li {if $PAGE == 'dashboard'}class="active"{/if}><a href="dashboard.php"><i class='fa fa-newspaper-o'></i> <span>Dashboard</span></a></li>
     <li {if $PAGE == 'timeline'}class="active"{/if}><a href="timeline.php"><i class='fa fa-clock-o'></i> <span>Timeline</span></a></li>
